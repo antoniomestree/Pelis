@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Mejores Películas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Las Mejores Películas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#top-10">Top 10</a></li>
+                    <li><a href="#generos">Géneros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio">
+        <div class="hero">
+            <h2>Bienvenido a la guía definitiva de las mejores películas</h2>
+            <p>Explora nuestras selecciones cuidadosamente curadas de las mejores películas de todos los tiempos.</p>
+        </div>
+    </section>
+
+    <section id="top-10" class="container">
+        <h2>Top 10 Películas</h2>
+        <div class="carousel">
+            <!-- Añade aquí los elementos del carrusel -->
+        </div>
+    </section>
+
+    <section id="generos" class="container">
+        <h2>Géneros Populares</h2>
+        <div class="genres">
+            <div class="genre">
+                <h3>Acción</h3>
+                <p>Explosiones, persecuciones, y adrenalina pura.</p>
+            </div>
+            <div class="genre">
+                <h3>Drama</h3>
+                <p>Historias que te harán pensar y sentir.</p>
+            </div>
+            <div class="genre">
+                <h3>Comedia</h3>
+                <p>Risas garantizadas para todos.</p>
+            </div>
+            <div class="genre">
+                <h3>Ciencia Ficción</h3>
+                <p>Viajes a mundos desconocidos y futuros distópicos.</p>
+            </div>
+            <!-- Añade más géneros según sea necesario -->
+        </div>
+    </section>
+
+    <section id="contacto" class="container">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Las Mejores Películas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
